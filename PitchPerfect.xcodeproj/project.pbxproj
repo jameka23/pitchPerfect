@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6934532425D3982500AF514B /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6934532325D3982500AF514B /* PlaySoundsViewController.swift */; };
 		69B5F2DD25B54D2800D275D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5F2DC25B54D2800D275D1 /* AppDelegate.swift */; };
 		69B5F2DF25B54D2800D275D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5F2DE25B54D2800D275D1 /* SceneDelegate.swift */; };
-		69B5F2E125B54D2800D275D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5F2E025B54D2800D275D1 /* ViewController.swift */; };
+		69B5F2E125B54D2800D275D1 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B5F2E025B54D2800D275D1 /* RecordSoundsViewController.swift */; };
 		69B5F2E425B54D2800D275D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B5F2E225B54D2800D275D1 /* Main.storyboard */; };
 		69B5F2E625B54D2C00D275D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B5F2E525B54D2C00D275D1 /* Assets.xcassets */; };
 		69B5F2E925B54D2C00D275D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B5F2E725B54D2C00D275D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6934532325D3982500AF514B /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		69B5F2D925B54D2800D275D1 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B5F2DC25B54D2800D275D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B5F2DE25B54D2800D275D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69B5F2E025B54D2800D275D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69B5F2E025B54D2800D275D1 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		69B5F2E325B54D2800D275D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69B5F2E525B54D2C00D275D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B5F2E825B54D2C00D275D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				69B5F2DC25B54D2800D275D1 /* AppDelegate.swift */,
+				6934532325D3982500AF514B /* PlaySoundsViewController.swift */,
 				69B5F2DE25B54D2800D275D1 /* SceneDelegate.swift */,
-				69B5F2E025B54D2800D275D1 /* ViewController.swift */,
+				69B5F2E025B54D2800D275D1 /* RecordSoundsViewController.swift */,
 				69B5F2E225B54D2800D275D1 /* Main.storyboard */,
 				69B5F2E525B54D2C00D275D1 /* Assets.xcassets */,
 				69B5F2E725B54D2C00D275D1 /* LaunchScreen.storyboard */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B5F2E125B54D2800D275D1 /* ViewController.swift in Sources */,
+				69B5F2E125B54D2800D275D1 /* RecordSoundsViewController.swift in Sources */,
 				69B5F2DD25B54D2800D275D1 /* AppDelegate.swift in Sources */,
+				6934532425D3982500AF514B /* PlaySoundsViewController.swift in Sources */,
 				69B5F2DF25B54D2800D275D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
