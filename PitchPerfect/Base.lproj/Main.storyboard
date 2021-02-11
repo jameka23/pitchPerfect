@@ -71,8 +71,38 @@
                     <view key="view" contentMode="scaleToFill" id="kcd-F9-LWQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HnB-SY-0fh">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvz-hz-3TH">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHd-TX-Hsq" userLabel="Slow Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="324" height="774"/>
+                                                <state key="normal" image="Slow"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXB-RQ-3A4" userLabel="Fast Button">
+                                                <rect key="frame" x="324" y="0.0" width="90" height="774"/>
+                                                <state key="normal" image="Fast"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="bXB-RQ-3A4" firstAttribute="centerY" secondItem="KHd-TX-Hsq" secondAttribute="centerY" id="808-cM-fbD"/>
+                                            <constraint firstItem="bXB-RQ-3A4" firstAttribute="centerY" secondItem="KHd-TX-Hsq" secondAttribute="centerY" id="ABp-I3-JCo"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="UKJ-Ul-hFk"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HnB-SY-0fh" firstAttribute="leading" secondItem="UKJ-Ul-hFk" secondAttribute="leading" id="9us-Hy-b6U"/>
+                            <constraint firstItem="UKJ-Ul-hFk" firstAttribute="bottom" secondItem="HnB-SY-0fh" secondAttribute="bottom" id="I2t-bc-LUz"/>
+                            <constraint firstItem="UKJ-Ul-hFk" firstAttribute="trailing" secondItem="HnB-SY-0fh" secondAttribute="trailing" id="tbl-qO-7wr"/>
+                            <constraint firstItem="HnB-SY-0fh" firstAttribute="top" secondItem="UKJ-Ul-hFk" secondAttribute="top" id="tlp-30-X6P"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C0C-62-KH7"/>
                 </viewController>
@@ -100,13 +130,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fast" width="90" height="90"/>
         <image name="RecordButton" width="155" height="155"/>
+        <image name="Slow" width="90" height="90"/>
         <image name="Stop" width="155" height="155"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
